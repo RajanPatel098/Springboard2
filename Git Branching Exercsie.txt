@@ -1,0 +1,21 @@
+Branching Exercise
+Part I
+Answer the following questions:
+
+Q;What git command creates a branch?
+    A: git checkout -b
+Q:What is the difference between a fast-forward and recursive merge?
+    A:  fast forward merges are only possible if there have been no commits on the first original branch whilst other branches are being added to/changed.
+Q:What git command changes to another branch?
+    A:  git checkout changes to other branches
+Q:What git command deletes a branch?
+    A: git branch -D
+Q:How do merge conflicts happen?
+    A: Merge conflicts occur when git isnt able to determine what folder/file to choose when
+    merging since there was multiple different commits with changes to that same folder/file
+
+
+Part II
+Practice with fast forward and recursive merges! Make a branch and add and commit onto it and merge it back into master.
+
+Try to create your own merge conflict by modifying the same file on two separate commits on two separate branches.
